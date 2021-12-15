@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://WebXml.com.cn/">
+  <string>福建 三明</string>
+  <string>大田</string>
+  <string>2222</string>
+  <string>2021/05/13 08:42:09</string>
+  <string>今日天气实况：气温：25℃；风向/风力：南风 1级；湿度：82%</string>
+  <string>紫外线强度：中等。</string>
+  <string>中国人民保险感冒指数：少发，感冒机率较低，避免长期处于空调屋中。
+健臻·血糖指数：易波动，血糖易波动，注意监测。
+穿衣指数：炎热，建议穿短衫、短裤等清凉夏季服装。
+洗车指数：较不宜，风力较大，洗车后会蒙上灰尘。
+紫外线指数：中等，涂擦SPF大于15、PA+防晒护肤品。
+</string>
+  <string>5月12日 多云</string>
+  <string>22℃/33℃</string>
+  <string>西南风3-4级</string>
+  <string>1.gif</string>
+  <string>1.gif</string>
+  <string>5月13日 多云</string>
+  <string>23℃/34℃</string>
+  <string>西南风3-4级</string>
+  <string>1.gif</string>
+  <string>1.gif</string>
+  <string>5月14日 多云</string>
+  <string>23℃/35℃</string>
+  <string>西南风转南风3-4级</string>
+  <string>1.gif</string>
+  <string>1.gif</string>
+  <string>5月15日 多云</string>
+  <string>23℃/36℃</string>
+  <string>西南风3-4级</string>
+  <string>1.gif</string>
+  <string>1.gif</string>
+  <string>5月16日 多云</string>
+  <string>23℃/37℃</string>
+  <string>西南风3-4级转无持续风向小于3级</string>
+  <string>1.gif</string>
+  <string>1.gif</string>
+</ArrayOfString>

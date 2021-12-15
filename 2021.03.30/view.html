@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	foreach循环
+	<{foreach $arr as $key=>$value}>
+	<{$value}><br>
+	<{/foreach}>
+	section一维循环
+	<{section name='i' loop=$arr}>
+	<{$arr[i]}><br>
+	<{/section}>
+
+
+	section二维循环
+	<table>
+	<{section name='i' loop=$arrs}>
+	<tr>
+		<{section name='p' loop=$arrs[i]}>
+				<td><{$arrs[i][p]}></td>
+		<{/section}>
+	</tr>
+	<{/section}>
+	</table>
+	<{if $smarty.get.age > 18}>
+	你的年龄是<{$smarty.get.age}>可以当兵
+	<{else}>
+	你的年龄是<{$smarty.get.age}>不可以当兵
+	<{/if}>
+	<form action="./controller.php" method="get">
+		请输入您的年龄：<input type="text" name="age">
+	</form>
+<table border="1" width="500">
+	<{foreach $arr1 as $key $value}>
+	<{if $key%3==0}>
+	<tr bgcolor="red" >
+		<{else}>
+		<tr  >
+	<{/if}>
+		<td> <{$key}> </td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<{/foreach}>
+	<{$title}>
+	<{$title|upper}>
+	<{$title|lower}>
+
+
+</table>
+</body>
+</html>

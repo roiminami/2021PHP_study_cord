@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>文件上传页面</title>
+</head>
+<body>
+	<form action="2upload.php" method="post" enctype="multipart/form-data">
+		请上传图片文件<br>
+		标题：<input type="text" name="title"><br>
+		文件：<input type="file" name="upload-file"><br>
+			 <input type="submit" name="提交">
+			 <input type="hidden" name="token" value="123">
+	</form>
+</body>
+</html>

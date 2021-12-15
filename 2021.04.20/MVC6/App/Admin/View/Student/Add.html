@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body bgcolor="green">
+	<form action="?p=Admin&a=insert" method="post">
+		<h2 align="center">后台学生信息添加中心</h2>
+		<table align="center" style="border: 1px solid black;margin-top:40px;" cellpadding="20px">
+			<tr>
+				<td>学生姓名：</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>学生性别：</td>
+				<td>男<input type="checkbox" name="sex" value="男" checked=""> | 
+					女<input type="checkbox" name="sex" value="女">
+
+				</td>
+			</tr>
+			<tr>
+				<td>学生年龄：</td>
+				<td><input type="text" name="age"></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="reset">
+				</td>
+				<td>
+					<input type="submit" value="提交">
+				</td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>
